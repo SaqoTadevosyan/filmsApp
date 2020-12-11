@@ -1,0 +1,14 @@
+.Items-Table {
+    display: flex;
+    flex-wrap: wrap;
+
+    .Item {
+        padding: 10px;
+    }
+}
+
+.Pagenation {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
