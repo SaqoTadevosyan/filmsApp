@@ -8,6 +8,7 @@ import {
 import Home from './Components/Pages/Home/Home';
 import Serials from './Components/Pages/Serials/Serials';
 import Movies from './Components/Pages/Movies/Movies';
+import Error from './Components/Pages/Error/Error';
 function App() {
   return (
     <Router>
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route  path="/error">
+          <Error />
         </Route>
       </Switch>
 
